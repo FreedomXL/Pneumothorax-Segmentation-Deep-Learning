@@ -12,9 +12,9 @@ This library contains the original implementation of 'Pneumothorax Segmentation 
 - MFP-Unet
 - UNet3+
 ## Segmentation Results
-![image](https://github.com/FreedomXL/Pneumothorax-Segmentation-Deep-Learning/tree/master/images/Dice%20Coefficient.png)
+![image](https://github.com/FreedomXL/Pneumothorax-Segmentation-Deep-Learning/blob/master/images/Dice%20Coefficient.png)
 
-![image](https://github.com/FreedomXL/Pneumothorax-Segmentation-Deep-Learning/tree/master/images/Visualization%20Results.png)
+![image](https://github.com/FreedomXL/Pneumothorax-Segmentation-Deep-Learning/blob/master/images/Visualization%20Results.png)
 <p align='center'>Figure 1: Visualization of Pneumothorax Segmentation Results</p>
 
 ## Citation
