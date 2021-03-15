@@ -1,5 +1,5 @@
-# Pneumothorax Segmentation Using Deep Neural Networks Implemented in Keras
-This library contains the original implementation of 'Pneumothorax Segmentation in Routine Computed Tomography Based on Deep Neural Networks' in Keras (Tensorflow as backend). 
+# Pneumothorax Segmentation in Routine Computed Tomography Based on Deep Neural Networks (ICoIAS'2021)
+This library contains the original implementation of **'Pneumothorax Segmentation in Routine Computed Tomography Based on Deep Neural Networks'** in Keras (Tensorflow as backend). 
 ## Implemented Models
 - U-Net
 - dilated U-Net
