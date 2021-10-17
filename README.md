@@ -6,6 +6,7 @@ This library contains the original implementation of **'Pneumothorax Segmentatio
 - tensorflow-gpu == 2.2.0rc3
 - h5py == 2.10.0
 - numpy == 1.19.4
+- pydensecrf == 1.0rc3
 - SimpleITK == 2.0.1
 - opencv-python == 4.4.0.46
 ## Implemented Models
