@@ -1,5 +1,7 @@
 # Pneumothorax Segmentation in Routine Computed Tomography Based on Deep Neural Networks (ICoIAS'2021)
-This library contains the original implementation of **'Pneumothorax Segmentation in Routine Computed Tomography Based on Deep Neural Networks'** in Keras (Tensorflow as backend). 
+This library contains the original implementation of **'Pneumothorax Segmentation in Routine Computed Tomography Based on Deep Neural Networks'** in Keras (Tensorflow as backend).
+
+paper link: [https://ieeexplore.ieee.org/abstract/document/9527604](https://ieeexplore.ieee.org/abstract/document/9527604)
 ## Required libraries
 - Python == 3.6
 - Keras == 2.4.3
