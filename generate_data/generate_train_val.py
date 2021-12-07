@@ -21,7 +21,7 @@ def generate_train_val(data_path, output_path, pattern='train'):
     for i in volumes:
         # original CT slices are stored in DICOM format
         # ground truth labels are stored in nii format
-        img_path = data_path + 'train_volume/' + str(i) + '/'
+        img_path = data_path + pattern + '_volume/' + str(i) + '/'
         label_path = data_path + 'segmentation/' + str(i) + '.nii'
 
         # reading original CT slices using SimpleITK
@@ -97,6 +97,6 @@ if __name__ == '__main__':
 
     data_path = '/home/user/datasets/pneumothorax/'  # dataset path
     # creating training h5 file
-    generate_train_val(data_path=data_path, output_path='train.h5', pattern='train')
+    generate_train_val(data_path=data_path, output_path=data_path + 'train.h5', pattern='train')
     # creating validation h5 file
-    generate_train_val(data_path=data_path, output_path='val.h5', pattern='val')
+    generate_train_val(data_path=data_path, output_path=data_path + 'val.h5', pattern='val')
